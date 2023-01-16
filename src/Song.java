@@ -26,4 +26,11 @@ public class Song {
 
     // artist
     // genre
+    @Override
+    public String toString() {
+        return "Song{" +
+                "title='" + title + '\'' +
+                ", duration=" + duration +
+                '}';
+    }
 }
